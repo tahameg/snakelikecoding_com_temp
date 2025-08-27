@@ -71,6 +71,13 @@ main .intro .logo-container{
     margin-bottom: 30px;
 }
 
+.announcements {
+    margin-bottom: 60px;
+}
+.announcements .board-container{
+    box-shadow: 4px 4px 6px var(--grey-6);
+}
+
 @media (max-width: 1200px) {
     .content-wrapper{
         width: 85%;

@@ -1,0 +1,149 @@
+.site-footer{
+    font-family: "Montserrat", monospace;
+    background-color: #111111;
+    color: var(--grey-2);
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    user-select: none;
+    box-shadow: inset 0px 5px 10px rgb(15, 15, 15);
+
+}
+
+.site-footer .footer-head {
+    font-family: "Montserrat", monospace;
+    display: flex;
+    margin-left: 60px;
+}
+
+.site-footer .footer-head .logo{
+    max-width: 150px;
+    flex-shrink: 0px;
+    filter: grayscale();
+}
+
+
+.site-footer h4{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.site-footer .footer-container{
+    display: flex;
+    justify-content:center;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer .col-1{
+    max-width: 50%;
+}
+
+.site-footer .col-2,
+.site-footer .col-3 
+{
+    max-width: 15%;
+    margin-left: 40px;
+}
+
+    
+.footer-bottom {
+    border-top: solid 1px var(--grey-4);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.footer-bottom p{
+    margin: 0px auto;
+    max-width: fit-content;
+
+}
+
+.site-footer .technologies
+{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.site-footer .technologies img
+{
+    display: block;
+    max-height: 50px;
+    border-radius: 20px;
+    filter: grayscale();
+}
+
+.site-footer .socials ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.site-footer .links ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.site-footer .links ul a{
+
+    text-decoration: none;
+    color: var(--grey-2);
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.site-footer .links ul a:hover{
+
+    color: white;
+}
+
+.site-footer .socials a{
+    font-size: 30px;
+    color: var(--grey-2);
+    cursor: pointer;
+}
+
+.site-footer .socials a:hover{
+    color: white;
+}
+
+.site-footer .about p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Medium screens (tablet) */
+@media (max-width: 992px){
+    .site-footer .footer-container
+    {
+        flex-direction: column ;
+    }
+
+    .site-footer .footer-col
+    {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .site-footer .links
+    {
+        margin-left: 0px;
+    }
+
+    .site-footer .socials
+    {
+        margin-left: 0px;
+    }
+}
